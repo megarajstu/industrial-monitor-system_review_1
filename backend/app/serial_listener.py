@@ -107,7 +107,7 @@ SIMULATE    = _config["simulate"]
 class _DemoSimulator:
     """Generates fake multi-node telemetry that drifts realistically."""
 
-    _NODE_COUNT = 4
+    _NODE_COUNT = 1
     _INTERVAL   = 0.5
 
     def __init__(self):
